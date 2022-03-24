@@ -1,0 +1,17 @@
+@import "./utils/utils.scss";
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: $darkblue;
+}
+
+.NavbarItem {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+}
+
+.NavbarIcon {
+    display: flex;
+}

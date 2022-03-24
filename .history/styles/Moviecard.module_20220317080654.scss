@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.item {
+    margin: 0 1rem 1rem 0;
+    cursor: pointer;
+    min-width: 200px;
+    max-width: 200px;
+}

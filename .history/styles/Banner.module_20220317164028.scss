@@ -1,0 +1,16 @@
+.container {
+    min-height: 300px;
+    height: calc(100vh / 2.5);
+    max-height: 360px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.BannerImg {
+    img {
+        width: 1300px;
+        height: 300px;
+    }
+}

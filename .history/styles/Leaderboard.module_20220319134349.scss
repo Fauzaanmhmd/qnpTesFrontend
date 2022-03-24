@@ -1,0 +1,84 @@
+@import "./utils/utils.scss";
+
+.Container {
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+}
+
+.ColumnWrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.Column {
+    width: 100%;
+}
+
+.ColumnHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+
+    h2 {
+        margin-right: 20px;
+        white-space: nowrap;
+    }
+}
+
+.HeaderEdit {
+    display: block;
+}
+
+.Content {
+    padding-top: 20px;
+}
+
+.Leaderboard {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: inside;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.Leaderboard li:nth-child(odd) {
+    padding-right: 10px;
+}
+
+.meter {
+    width: 100%;
+    height: 8px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.gauge {
+    width: 1.0417657335275405%;
+    height: 100%;
+    min-width: 40px;
+    border-radius: 4px;
+    background-color: $darkblue;
+}
+.meterThisWeek {
+    width: 100%;
+    height: 8px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: $darkblue;
+}
+
+.gauge {
+    width: 100%;
+}

@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 8px;
+    margin-left: 2rem;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.ColumnHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.Selector {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: center;
+    border: 1px solid rgba(var(--tmdbDarkBlue), 1);
+    border-radius: 30px;
+}
+
+.Acnhor {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    h3 {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    padding: 4px 20px;
+    margin-bottom: 0;
+    white-space: nowrap;
+    }
+}

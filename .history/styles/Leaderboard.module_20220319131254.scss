@@ -1,0 +1,12 @@
+@import "./utils/utils.scss";
+
+.Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ColumnWrapper {
+    background-color: $darkblue;
+    width: 100%;
+}

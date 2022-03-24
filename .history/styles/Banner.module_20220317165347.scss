@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.BannerImg {
+    img {
+        width: 1300px;
+        height: 300px;
+    }
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: flex-start;
+}

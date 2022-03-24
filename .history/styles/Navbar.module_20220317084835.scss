@@ -1,0 +1,14 @@
+@import "./utils/utils.scss";
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.NavbarItem {
+    display: flex;
+}
+
+.NavbarIcon {
+    display: flex;
+}

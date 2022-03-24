@@ -1,0 +1,32 @@
+@import "./utils/utils.scss";
+
+.item {
+    img {
+
+        display: inline-block;
+        width: 150px;
+        height: 225px;
+        margin: 0 14px 0 14px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    h5 {
+        text-align: center;
+    }
+}
+
+.average {
+    background-color: black;
+    height: 34px;
+    width: 34px;
+    color: $white;
+    border-radius: 50%;
+    padding: 4px;
+    margin: -20px 0 0 30px;
+    border: black;
+}
+
+.details {
+    margin-left: .5rem;
+}

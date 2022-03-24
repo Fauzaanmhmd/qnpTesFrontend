@@ -1,0 +1,33 @@
+@import "./utils/utils.scss";
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: $darkblue;
+    width: 100%;
+    height: 4rem;
+}
+
+.MenuBar {
+    text-align: center;
+}
+
+.Menubar ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.NavbarItem {
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 154px;
+        height: 20px;
+    }
+}
+
+.NavbarIcon {
+    display: flex;
+    align-items: center;
+}
